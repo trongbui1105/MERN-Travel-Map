@@ -4,6 +4,7 @@ const app = express();
 require("dotenv").config();
 
 const pinRoute = require("./routes/pins");
+const userRoute = require("./routes/users");
 
 app.use(express.json());
 
@@ -11,6 +12,7 @@ mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useCreateIndex: true,
   })
   .then(() => {
     console.log("MongoDB connected!");
@@ -19,6 +21,7 @@ mongoose
 
 
 app.use('/api/pins', pinRoute);
+app.use('/api/users', userRoute);
 
 app.listen(8800, () => {
   console.log("Backend server is running");
