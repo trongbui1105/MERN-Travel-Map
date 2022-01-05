@@ -18,7 +18,8 @@
 
 <!-- TABLE OF CONTENTS -->
 
-  ## Table of Content
+## Table of Content
+
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -106,11 +107,11 @@ Access key and mapStyle can be found once a MapBox account has been created wher
 
    - Move to backend folder
 
-     ```sh
-     cd backend
+    ```sh
+    cd backend
 
-     yarn install
-     ```
+    yarn install
+    ```
 
    - Update the MongoDB URL (You can see it in [.env.example](https://github.com/trongbui1105/MERN-Travel-Map/blob/master/backend/.env.example))
 
@@ -120,33 +121,33 @@ Access key and mapStyle can be found once a MapBox account has been created wher
 
    - Run the server
 
-     ```sh
+    ```sh
 
-     yarn start
-     ```
+    yarn start
+    ```
 
 3. Install packages for the frontend
 
    - Move to frontend folder
 
-     ```sh
-     cd frontend
+    ```sh
+    cd frontend
 
-     yarn install
-     ```
+    yarn install
+    ```
 
    - Get a free API Key from Mapbox at [their website](https://www.mapbox.com/).
 
    - Update the API in "./frontend/.env" (You can see it in [.env.example](https://github.com/trongbui1105/MERN-Travel-Map/blob/master/frontend/.env.example))
 
-     ```sh
-     REACT_APP_MAPBOX = <YOUR_MAPBOX_API_KEY>
-     ```
+    ```sh
+    REACT_APP_MAPBOX = <YOUR_MAPBOX_API_KEY>
+    ```
 
    - Run the frontend server
-     ```sh
-     yarn start
-     ```
+    ```sh
+    yarn start
+    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
