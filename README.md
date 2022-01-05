@@ -17,8 +17,8 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
-    <summary style="font-size:20px; font-weight:bold;">Table of Contents</summary>
+
+  ## Table of Content
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -36,8 +36,8 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
