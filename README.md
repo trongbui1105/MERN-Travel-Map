@@ -98,9 +98,9 @@ Access key and mapStyle can be found once a MapBox account has been created wher
 
 1. Clone the repo and change to that folder
 
-   ```sh
-   git clone https://github.com/trongbui1105/MERN-Travel-Map.git
-   ```
+    ```sh
+    git clone https://github.com/trongbui1105/MERN-Travel-Map.git
+    ```
 
 2. Install packages for the backend
 
@@ -114,14 +114,13 @@ Access key and mapStyle can be found once a MapBox account has been created wher
 
    - Update the MongoDB URL (You can see it in [.env.example](https://github.com/trongbui1105/MERN-Travel-Map/blob/master/backend/.env.example))
 
-   ```sh
-     MONGO_URL = <ADD_YOUR_MONGODB_URL>
-   ```
+    ```sh
+        MONGO_URL = <ADD_YOUR_MONGODB_URL>
+    ```
 
    - Run the server
 
      ```sh
-     cd src
 
      yarn start
      ```
